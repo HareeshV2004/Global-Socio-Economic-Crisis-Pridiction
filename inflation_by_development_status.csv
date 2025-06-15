@@ -1,0 +1,175 @@
+geography,countries,development_status,developing_region,inflation_rate
+AFG,Afghanistan,Developing,Asia and Oceania,0.038
+ALB,Albania,Developed,Europe,0.019
+DZA,Algeria,Developing,Africa,0.038
+AGO,Angola,Developing,Africa,0.2526
+ATG,Antigua and Barbuda,Developing,America,0.038
+ARM,Armenia,Developing,Asia and Oceania,0.038
+AUS,Australia,Developed,Asia and Oceania,0.038
+AUT,Austria,Developed,Europe,0.034
+AZE,Azerbaijan,Developing,Asia and Oceania,0.054000000000000006
+BHS,Bahamas (the),Developing,America,0.038
+BHR,Bahrain,Developing,Asia and Oceania,0.038
+BGD,Bangladesh,Developing,Asia and Oceania,0.038
+BRB,Barbados,Developing,America,0.038
+BLR,Belarus,Developed,Europe,0.05600000000000001
+BEL,Belgium,Developed,Europe,0.0355
+BLZ,Belize,Developing,America,0.038
+BEN,Benin,Developing,Africa,0.001
+BTN,Bhutan,Developing,Asia and Oceania,0.038
+BOL,Bolivia (Plurinational State of),Developing,America,0.1322
+BIH,Bosnia and Herzegovina,Developed,Europe,0.038
+BWA,Botswana,Developing,Africa,0.027000000000000003
+BRA,Brazil,Developing,America,0.0487
+BRN,Brunei Darussalam,Developing,Asia and Oceania,0.038
+BGR,Bulgaria,Developed,Europe,0.04036998
+BFA,Burkina Faso,Developing,Africa,0.038
+BDI,Burundi,Developing,Africa,0.397
+CPV,Cabo Verde,Developing,Africa,0.025700000000000004
+KHM,Cambodia,Developing,Asia and Oceania,0.038
+CMR,Cameroon,Developing,Africa,0.038
+CAN,Canada,Developed,Developed - America,0.0264
+CAF,Central African Republic (the),Developing,Africa,0.038
+TCD,Chad,Developing,Africa,0.038
+CHL,Chile,Developing,America,0.0473
+CHN,China,Developing,Asia and Oceania,-0.00699999999999999
+COL,Colombia,Developing,America,0.0528
+COG,Congo (the),Developing,Africa,0.038
+CRI,Costa Rica,Developing,America,0.0125
+CIV,Côte d'Ivoire,Developing,Africa,0.038
+HRV,Croatia,Developed,Europe,0.037
+CYP,Cyprus,Developed,Europe,0.023399999999999997
+CZE,Czechia,Developed,Europe,0.027000000000000003
+DNK,Denmark,Developed,Europe,0.02027027
+DJI,Djibouti,Developing,Africa,0.038
+DMA,Dominica,Developing,America,0.038
+DOM,Dominican Republic (the),Developing,America,0.0356
+ECU,Ecuador,Developing,America,0.0025
+EGY,Egypt,Developing,Africa,0.128
+SLV,El Salvador,Developing,America,0.0006
+GNQ,Equatorial Guinea,Developing,Africa,0.038
+EST,Estonia,Developed,Europe,0.053
+SWZ,Eswatini,Developing,Africa,0.038
+ETH,Ethiopia,Developing,Africa,0.15
+FJI,Fiji,Developing,Asia and Oceania,0.014000000000000002
+FIN,Finland,Developed,Europe,0.005
+FRA,France,Developed,Europe,0.007786989999999999
+GAB,Gabon,Developing,Africa,0.038
+GMB,Gambia (the),Developing,Africa,0.038
+GEO,Georgia,Developing,Asia and Oceania,0.0241
+DEU,Germany,Developed,Europe,0.02286198
+GHA,Ghana,Developing,Africa,0.231
+GRC,Greece,Developed,Europe,0.025
+GRD,Grenada,Developing,America,0.038
+GTM,Guatemala,Developing,America,0.0179
+GIN,Guinea,Developing,Africa,0.038
+GNB,Guinea-Bissau,Developing,Africa,0.038
+GUY,Guyana,Developing,America,0.038
+HTI,Haiti,Developing,America,0.038
+HND,Honduras,Developing,America,0.0475
+HUN,Hungary,Developed,Europe,0.05600000000000001
+ISL,Iceland,Developed,Europe,0.042
+IND,India,Developing,Asia and Oceania,0.0361
+IDN,Indonesia,Developing,Asia and Oceania,-0.0009
+IRN,Iran (Islamic Republic of),Developing,Asia and Oceania,0.038
+IRQ,Iraq,Developing,Asia and Oceania,0.038
+IRL,Ireland,Developed,Europe,0.01805416
+ISR,Israel,Developed,Asia and Oceania,0.034
+ITA,Italy,Developed,Europe,0.0158
+JAM,Jamaica,Developing,America,0.044
+JPN,Japan,Developed,Asia and Oceania,0.037
+JOR,Jordan,Developing,Asia and Oceania,0.038
+KAZ,Kazakhstan,Developing,Asia and Oceania,0.094
+KEN,Kenya,Developing,Africa,0.035
+KIR,Kiribati,Developing,Asia and Oceania,0.038
+KOR,Korea (the Republic of),Developed,Asia and Oceania,0.02
+KWT,Kuwait,Developing,Asia and Oceania,0.025
+KGZ,Kyrgyzstan,Developing,Asia and Oceania,0.07
+LAO,Lao People's Democratic Republic (the),Developing,Asia and Oceania,0.038
+LVA,Latvia,Developed,Europe,0.037
+LBN,Lebanon,Developing,Asia and Oceania,0.1564
+LSO,Lesotho,Developing,Africa,0.038
+LBR,Liberia,Developing,Africa,0.038
+LBY,Libya,Developing,Africa,0.038
+LTU,Lithuania,Developed,Europe,0.03467045
+LUX,Luxembourg,Developed,Europe,0.01700319
+MDG,Madagascar,Developing,Africa,0.038
+MWI,Malawi,Developing,Africa,0.307
+MYS,Malaysia,Developing,Asia and Oceania,0.015
+MDV,Maldives,Developing,Asia and Oceania,0.038
+MLI,Mali,Developing,Africa,0.038
+MLT,Malta,Developed,Europe,0.038
+MRT,Mauritania,Developing,Africa,0.038
+MUS,Mauritius,Developing,Africa,0.028000000000000004
+MEX,Mexico,Developing,America,0.0377
+MDA,Moldova (the Republic of),Developed,Europe,0.086
+MNG,Mongolia,Developing,Asia and Oceania,0.096
+MNE,Montenegro,Developed,Europe,0.028000000000000004
+MAR,Morocco,Developing,Africa,0.0265
+MOZ,Mozambique,Developing,Africa,0.047400000000000005
+MMR,Myanmar,Developing,Asia and Oceania,0.038
+NAM,Namibia,Developing,Africa,0.03629958
+NPL,Nepal,Developing,Asia and Oceania,0.0416
+NLD,Netherlands (the),Developed,Europe,0.03790543
+NZL,New Zealand,Developed,Asia and Oceania,0.038
+NIC,Nicaragua,Developing,America,0.0346
+NER,Niger (the),Developing,Africa,0.038
+NGA,Nigeria,Developing,Africa,0.2318
+MKD,North Macedonia,Developed,Europe,0.05
+NOR,Norway,Developed,Europe,0.036
+OMN,Oman,Developing,Asia and Oceania,0.01
+PAK,Pakistan,Developing,Asia and Oceania,0.015
+PAN,Panama,Developing,America,-0.00143262
+PRY,Paraguay,Developing,America,0.0427
+PER,Peru,Developing,America,0.01391
+PHL,Philippines (the),Developing,Asia and Oceania,0.021
+POL,Poland,Developed,Europe,0.049
+PRT,Portugal,Developed,Europe,0.023918890000000005
+QAT,Qatar,Developing,Asia and Oceania,0.038
+RUS,Russian Federation (the),Developed,Europe,0.10100000000000002
+RWA,Rwanda,Developing,Africa,0.038
+KNA,Saint Kitts and Nevis,Developing,America,0.038
+LCA,Saint Lucia,Developing,America,0.038
+VCT,Saint Vincent and the Grenadines,Developing,America,0.038
+WSM,Samoa,Developing,Asia and Oceania,0.018
+STP,Sao Tome and Principe,Developing,Africa,0.038
+SAU,Saudi Arabia,Developing,Asia and Oceania,0.02
+SEN,Senegal,Developing,Africa,0.038
+SRB,Serbia,Developed,Europe,0.046
+SYC,Seychelles,Developing,Africa,-0.001
+SLE,Sierra Leone,Developing,Africa,0.1309
+SGP,Singapore,Developing,Asia and Oceania,0.009
+SVK,Slovakia,Developed,Europe,0.038
+SVN,Slovenia,Developed,Europe,0.0155902
+SLB,Solomon Islands,Developing,Asia and Oceania,0.038
+SOM,Somalia,Developing,Africa,0.038
+ZAF,South Africa,Developing,Africa,0.03160041
+SSD,South Sudan,Developing,Africa,0.038
+ESP,Spain,Developed,Europe,0.02973455
+LKA,Sri Lanka,Developing,Asia and Oceania,-0.039
+SDN,Sudan (the),Developing,Africa,0.038
+SUR,Suriname,Developing,America,0.038
+SWE,Sweden,Developed,Europe,0.013000000000000001
+CHE,Switzerland,Developed,Europe,0.0032479999999999896
+SYR,Syrian Arab Republic (the),Developing,Asia and Oceania,0.038
+TJK,Tajikistan,Developing,Asia and Oceania,0.038
+TZA,Tanzania (the United Republic of),Developing,Africa,0.032
+THA,Thailand,Developing,Asia and Oceania,0.01075593
+TLS,Timor-Leste,Developing,Asia and Oceania,0.038
+TGO,Togo,Developing,Africa,0.038
+TON,Tonga,Developing,Asia and Oceania,0.038
+TTO,Trinidad and Tobago,Developing,America,0.038
+TUN,Tunisia,Developing,Africa,0.05600000000000001
+TUR,Türkiye,Developing,Asia and Oceania,0.39051
+UGA,Uganda,Developing,Africa,0.037
+UKR,Ukraine,Developed,Europe,0.134
+ARE,United Arab Emirates (the),Developing,Asia and Oceania,0.038
+GBR,United Kingdom of Great Britain and Northern Ireland (the),Developed,Europe,0.038
+USA,United States of America (the),Developed,Developed - America,0.0282
+URY,Uruguay,Developing,America,0.018
+UZB,Uzbekistan,Developing,Asia and Oceania,0.1013
+VEN,Venezuela (Bolivarian Republic of),Developing,America,0.038
+VNM,Viet Nam,Developing,Asia and Oceania,0.0291
+ZMB,Zambia,Developing,Africa,0.168
+ZWE,Zimbabwe,Developing,Africa,0.038
+developed,developed,Unknown,Unknown,0.034
