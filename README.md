@@ -1,91 +1,117 @@
-Crisis Prediction and Analysis
+ Global Socio-Economic Stress Early Warning System
 
-This repository contains two Jupyter notebooks for analyzing economic indicators and predicting potential crises across countries using statistical methods. The project focuses on processing global economic data to identify risks related to inflation, food insecurity, and energy price shocks.
+Statistical Risk Analytics Across 188 Countries
 
-Project Overview
+Problem Statement
 
+Economic crises are rarely sudden. They are typically preceded by persistent macro-economic stress signals such as sustained inflation, energy price volatility, and structural divergence between regions. Policymakers, analysts, and institutions require early warning indicators, not post-hoc explanations.
 
+This project develops a statistical early warning system that quantifies socio-economic stress across 188 developed and developing countries using publicly available macro-economic indicators.
 
+⚠️ This project does not perform supervised “crisis prediction.” Instead, it focuses on risk signal detection and monitoring in the absence of labeled crisis events.
 
+Why This Problem Is Hard
 
-Objective: Analyze economic indicators (e.g., inflation rates, food prices, oil and gas prices) and predict future crises (inflationary, food insecurity, or energy-related) for various countries.
+No ground-truth labels exist for “crisis onset” across countries
 
+Economic stress manifests heterogeneously across regions
 
+Indicators are noisy, non-stationary, and temporally lagged
 
-Tools: Python, pandas, NumPy, matplotlib, seaborn.
+Pure machine learning models are inappropriate without validated targets
 
+This mirrors real-world early warning systems used by institutions such as the World Bank and IMF, where statistical thresholds and trend deviations are preferred over black-box models.
 
- 
+Data Sources
 
+Country-level inflation indicators
 
+Energy price and consumption metrics
 
-Output: Predictions exported to crisis_predictions.csv, including crisis probability, type, and affected countries.
+Temporal macro-economic data spanning multiple years
 
-Notebooks
+Coverage: 188 countries
 
+(Data sourced from publicly available global economic datasets.)
 
+Methodology
 
+1. Data Cleaning & Harmonization
 
-crisispridiction.ipynb:
+Standardized indicators across countries and time periods
 
+Handled missing values and temporal gaps
 
+Aligned indicators to comparable economic timelines
 
+2. Feature Engineering
 
+Rolling Z-scores to measure deviation from historical norms
 
--Loads and preprocesses data from four Excel files: cleaned_bulk_data_cross_cutting.xlsx, cleaned_bulk_data_food.xlsx, cleaned_bulk_data_energy.xlsx, and cleaned_bulk_data_finance.xlsx.
+Lag features to capture delayed economic effects
 
+Regional aggregation for comparative stress analysis
 
+3. Risk Signal Construction
 
--Merges indicators (e.g., inflation rates, FAO food price index, oil/gas prices) with country metadata.
+Combined standardized indicators into composite stress signals
 
+Identified sustained deviations rather than short-term shocks
 
+Avoided classification due to absence of validated crisis labels
 
--Performs feature engineering (e.g., lagged variables, z-scores) and statistical crisis detection.
+4. Visualization & Diagnostics
 
+Region-wise stress trend analysis
 
+Cross-country comparison of economic divergence
 
--Predicts crises for June–December 2025, identifying high-probability countries (e.g., CHE, JOR, OMN, PAN).
+Temporal plots highlighting early warning patterns
 
+Key Insights
 
+Developing economies show higher volatility and persistence in stress signals
 
--Exports predictions to crisis_predictions.csv.
+Energy price shocks disproportionately affect inflation-sensitive regions
 
+Sustained Z-score deviations are more informative than point anomalies
 
-analysis.ipynb:
+Several regions exhibit early warning patterns without formal crisis declarations
 
+Assumptions & Limitations
 
+Risk signals are relative, not absolute crisis indicators
 
+Z-score normalization assumes historical stability as a reference
 
+Political, social, and institutional factors are not explicitly modeled
 
--Loads the same Excel files to analyze country metadata (e.g., development status, regions).
+Results should support monitoring and prioritization, not deterministic forecasting
 
+Practical Applications
 
+Macro-economic risk monitoring dashboards
 
--Merges and cleans country data across food, cross-cutting, energy, and finance datasets.
+Policy prioritization and early intervention planning
 
+Research support for economic vulnerability studies
 
+Future Work
 
--Verifies consistency in development status classifications (all 188 countries are consistent).
+Incorporate additional indicators (employment, debt, trade balances)
 
+Validate stress signals against historical crisis timelines
 
+Extend to probabilistic risk bands instead of fixed thresholds
 
--Visualizes distributions of development status and regions using matplotlib and seaborn.
+Integrate dashboarding for real-time monitoring
 
+Tech Stack
 
+Python
 
--Provides insights into regional and economic disparities.
+Pandas, NumPy
 
+Matplotlib, Seaborn
 
-Datasets
-
--cleaned_bulk_data_cross_cutting.xlsx : Dataset containing GDP and inflation rates of countries
-
--cleaned_bulk_data_energy : Dataset containing Gas and Oil prices of countries
-
--cleaned_bulk_data_finance : Dataset containing financial data of countries
-
--cleaned_bulk_data_food.xslx : Dataset containing food prices, food price index of countries
-
--inflation_by_development_status.csv : Dataset containing inflation rate of countries
-
-Tools used 
+Jupyter Notebook
