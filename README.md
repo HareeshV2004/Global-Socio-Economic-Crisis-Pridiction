@@ -1,14 +1,12 @@
- # 🌍 Global Socio-Economic Stress Early Warning System
+ # Global Socio-Economic Stress Early Warning System
 
 **Statistical Risk Analytics Across 188 Countries**
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+ 
 
 ---
 
-## 🔍 Problem Statement
+##  Problem Statement
 
 Economic crises are rarely sudden. They are typically preceded by **persistent macro-economic stress signals**:
 
@@ -24,19 +22,19 @@ This project develops a **statistical early warning system** that quantifies soc
 
 ---
 
-## 🤔 Why This Problem Is Hard
+##  Why This Problem Is Hard
 
 | Challenge | Description |
 |-----------|-------------|
-| ❌ No ground-truth labels | No validated "crisis onset" labels across countries |
-| 🌍 Heterogeneous manifestation | Economic stress varies by region |
-| 📊 Noisy data | Indicators are non-stationary and temporally lagged |
-| 🚫 ML limitations | Pure machine learning inappropriate without targets |
-| 🏦 Real-world alignment | Mirrors World Bank/IMF statistical threshold approaches |
+|  No ground-truth labels | No validated "crisis onset" labels across countries |
+|  Heterogeneous manifestation | Economic stress varies by region |
+|  Noisy data | Indicators are non-stationary and temporally lagged |
+|  ML limitations | Pure machine learning inappropriate without targets |
+|  Real-world alignment | Mirrors World Bank/IMF statistical threshold approaches |
 
 ---
 
-## 📊 Data Sources
+##  Data Sources
 
 - **Country-level inflation indicators**
 - **Energy price and consumption metrics**
@@ -47,7 +45,7 @@ This project develops a **statistical early warning system** that quantifies soc
 
 ---
 
-## 🛠️ Methodology
+##  Methodology
 
 ### 1. **Data Cleaning & Harmonization**
 -Standardized indicators across countries/time periods
@@ -56,3 +54,84 @@ This project develops a **statistical early warning system** that quantifies soc
 
 -Aligned to comparable economic timelines
 
+
+### 2. **Feature Engineering**
+-Rolling Z-scores (deviation from historical norms)
+
+-Lag features (delayed economic effects)
+
+-Regional aggregation (comparative analysis)
+
+
+
+### 3. **Risk Signal Construction**
+-Composite stress signals from standardized indicators
+
+-Focus on sustained deviations (not short-term shocks)
+
+-No classification (no validated crisis labels)
+
+
+### 4. **Visualization & Diagnostics**
+-Region-wise stress trend analysis
+
+-Cross-country economic divergence
+
+-Temporal early warning pattern plots
+
+
+---
+
+##  Key Insights
+
+- **Developing economies**: Higher volatility + persistence in stress signals
+- **Energy shocks**: Disproportionately affect inflation-sensitive regions
+- **Z-score deviations**: More informative than point anomalies
+- **Early warnings**: Several regions show patterns without formal crises
+
+---
+
+##  Assumptions & Limitations
+
+- Signals are **relative**, not absolute crisis indicators
+- Z-score normalization assumes **historical stability**
+- **Excludes**: Political, social, institutional factors
+- Best for **monitoring/prioritization**, not deterministic forecasting
+
+---
+
+##  Practical Applications
+
+- **Macro-economic risk monitoring dashboards**
+- **Policy prioritization & early intervention**
+- **Economic vulnerability research support**
+
+---
+
+##  Future Work
+
+-  Additional indicators (employment, debt, trade)
+-  Validate against historical crisis timelines
+-  Probabilistic risk bands (vs fixed thresholds)
+-  Real-time monitoring dashboard
+
+---
+
+## Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| **Language** | Python |
+| **Data** | Pandas, NumPy |
+| **Visualization** | Matplotlib, Seaborn |
+| **Development** | Jupyter Notebook |
+
+---
+
+## Quick Start
+
+```bash
+git clone https://github.com/yourusername/socio-economic-stress-system.git
+cd socio-economic-stress-system
+pip install -r requirements.txt
+jupyter notebook analysis.ipynb
