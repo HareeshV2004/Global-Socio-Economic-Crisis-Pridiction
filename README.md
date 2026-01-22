@@ -1,130 +1,58 @@
- Global Socio-Economic Stress Early Warning System
+ # 🌍 Global Socio-Economic Stress Early Warning System
 
-Statistical Risk Analytics Across 188 Countries
+**Statistical Risk Analytics Across 188 Countries**
 
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 
-Problem Statement
+---
 
-Economic crises are rarely sudden. They are typically preceded by persistent macro-economic stress signals such as sustained inflation, energy price volatility, and structural divergence between regions. Policymakers, analysts, and institutions require early warning indicators, not post-hoc explanations.
+## 🔍 Problem Statement
 
-This project develops a statistical early warning system that quantifies socio-economic stress across 188 developed and developing countries using publicly available macro-economic indicators.
+Economic crises are rarely sudden. They are typically preceded by **persistent macro-economic stress signals**:
 
+- Sustained inflation
+- Energy price volatility
+- Structural divergence between regions
 
-Note : This project does not perform supervised “crisis prediction.” Instead, it focuses on risk signal detection and monitoring in the absence of labeled crisis events.
+**Policymakers, analysts, and institutions need early warning indicators, not post-hoc explanations.**
 
-Why This Problem Is Hard
+This project develops a **statistical early warning system** that quantifies socio-economic stress across **188 developed and developing countries** using publicly available macro-economic indicators.
 
--No ground-truth labels exist for “crisis onset” across countries
+> **Note**: This project focuses on **risk signal detection and monitoring** rather than supervised "crisis prediction" in the absence of labeled crisis events.
 
--Economic stress manifests heterogeneously across regions
+---
 
--Indicators are noisy, non-stationary, and temporally lagged
+## 🤔 Why This Problem Is Hard
 
--Pure machine learning models are inappropriate without validated targets
+| Challenge | Description |
+|-----------|-------------|
+| ❌ No ground-truth labels | No validated "crisis onset" labels across countries |
+| 🌍 Heterogeneous manifestation | Economic stress varies by region |
+| 📊 Noisy data | Indicators are non-stationary and temporally lagged |
+| 🚫 ML limitations | Pure machine learning inappropriate without targets |
+| 🏦 Real-world alignment | Mirrors World Bank/IMF statistical threshold approaches |
 
--This mirrors real-world early warning systems used by institutions such as the World Bank and IMF, where statistical thresholds and trend deviations are preferred over black-box models.
+---
 
+## 📊 Data Sources
 
-Data Sources
+- **Country-level inflation indicators**
+- **Energy price and consumption metrics**
+- **Temporal macro-economic data** (multiple years)
+- **Coverage**: **188 countries**
 
--Country-level inflation indicators
+*Data sourced from publicly available global economic datasets*
 
--Energy price and consumption metrics
+---
 
--Temporal macro-economic data spanning multiple years
+## 🛠️ Methodology
 
--Coverage: 188 countries
+### 1. **Data Cleaning & Harmonization**
+-Standardized indicators across countries/time periods
 
-(Data sourced from publicly available global economic datasets.)
-
-
-Methodology
-
-1. Data Cleaning & Harmonization
-
--Standardized indicators across countries and time periods
- 
 -Handled missing values and temporal gaps
 
--Aligned indicators to comparable economic timelines
+-Aligned to comparable economic timelines
 
-2. Feature Engineering
-
--Rolling Z-scores to measure deviation from historical norms
-
--Lag features to capture delayed economic effects
-
--Regional aggregation for comparative stress analysis
-
-3. Risk Signal Construction
-
--Combined standardized indicators into composite stress signals
-
--Identified sustained deviations rather than short-term shocks
-
--Avoided classification due to absence of validated crisis labels
-
-4. Visualization & Diagnostics
-
--Region-wise stress trend analysis
-
--Cross-country comparison of economic divergence
-
--Temporal plots highlighting early warning patterns
-
-Key Insights
-
--Developing economies show higher volatility and persistence in stress signals
-
--Energy price shocks disproportionately affect inflation-sensitive regions
-
--Sustained Z-score deviations are more informative than point anomalies
-
--Several regions exhibit early warning patterns without formal crisis declarations
-
-
-Assumptions & Limitations
-
--Risk signals are relative, not absolute crisis indicators
-
--Z-score normalization assumes historical stability as a reference
-
--Political, social, and institutional factors are not explicitly modeled
-
--Results should support monitoring and prioritization, not deterministic forecasting
-
-
-Practical Applications
-
--Macro-economic risk monitoring dashboards
-
--Policy prioritization and early intervention planning
-
--Research support for economic vulnerability studies
-
-
-Future Work
-
--Incorporate additional indicators (employment, debt, trade balances)
-
--Validate stress signals against historical crisis timelines
-
--Extend to probabilistic risk bands instead of fixed thresholds
-
--Integrate dashboarding for real-time monitoring
-
-
-Tech Stack
-
--Python
-
--Pandas, NumPy
-
--Matplotlib, Seaborn
-
--Jupyter Notebook
-Pandas, NumPy
-
-Matplotlib, Seaborn
-
-Jupyter Notebook
